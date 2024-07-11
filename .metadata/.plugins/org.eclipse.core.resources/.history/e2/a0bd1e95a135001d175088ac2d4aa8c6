@@ -1,0 +1,43 @@
+package demo;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Base64;
+import java.util.Date;
+
+
+
+public class New {
+ 
+public static void main(String[] args) {
+
+	try {
+	String date="2022-05-23 23:24:26";
+		String d=getNewDate(date);
+		System.out.println(d);
+	} catch (Exception e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+		
+}
+
+public  String getNewDate(String date) throws ParseException {    
+	SimpleDateFormat dateFormat1 = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss");
+	SimpleDateFormat dateFormat2 = new SimpleDateFormat("dd MMM,yyyy HH:mm:ss");
+//	Date date = new Date();
+	Date d=dateFormat1.parse(date);
+	String nD=dateFormat2.format(d);
+	return nD;
+	   
+	  }    
+	
+}
+
+
+
+
+

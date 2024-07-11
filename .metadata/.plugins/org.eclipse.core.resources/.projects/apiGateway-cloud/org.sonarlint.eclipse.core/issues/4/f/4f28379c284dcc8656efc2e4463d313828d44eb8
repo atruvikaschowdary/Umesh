@@ -1,0 +1,9 @@
+
+Œ
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "fallBack".(ü²ÛªHµERMINORZ
+CODE_SMELL
+‘
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "fallBack".(´Ô·ÒÿÿÿÿÿH¸ERMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÀìŠ—úÿÿÿÿH»ERMINORZ
+CODE_SMELL

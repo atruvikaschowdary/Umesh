@@ -1,0 +1,90 @@
+
+x
+java:S1128"GRemove this unused import 'org.apache.poi.xssf.usermodel.XSSFWorkbook'.(Œ¦ƒëşÿÿÿÿH¦.RMINORZ
+CODE_SMELL
+t
+java:S2095‘"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ÿ¦ï×H¨.RBLOCKERZBUG
+m
+java:S1075 "ARefactor your code to get this URI from a customizable parameter.(Å”¬ÄH©.RMINORZ
+CODE_SMELL
+_
+java:S1874{"3Remove this use of "getCellType"; it is deprecated.(‘ÙÂˆHª.RMINORZ
+CODE_SMELL
+e	java:S106›"9Replace this use of System.out or System.err by a logger.(§¹é·H«.RMAJORZ
+CODE_SMELL
+e	java:S106"9Replace this use of System.out or System.err by a logger.(•¬ªĞH¬.RMAJORZ
+CODE_SMELL
+m	java:S125Æ"<This block of commented-out lines of code should be removed.(úÖ³ÎşÿÿÿÿH­.RMAJORZ
+CODE_SMELL
+v
+java:S20956"JUse try-with-resources or close this "HSSFWorkbook" in a "finally" clause.(ÒîÂÃüÿÿÿÿH®.RBLOCKERZBUG
+e	java:S106µ"9Replace this use of System.out or System.err by a logger.(˜å‡’H¯.RMAJORZ
+CODE_SMELL
+k
+java:S1128"?Remove this unused import 'org.apache.poi.ss.usermodel.Header'.(·¯¦şH°.RMINORZ
+CODE_SMELL
+H
+java:S11165"Remove this empty statement.(ÊÖ¤ÊH².RMINORZ
+CODE_SMELL
+Š
+java:S2293b"YReplace the type specification in this constructor call with the diamond operator ("<>").(éœŠ‡øÿÿÿÿH´.RMINORZ
+CODE_SMELL
+]
+java:S1128"1Remove this unused import 'com.google.gson.Gson'.(–§H¶.RMINORZ
+CODE_SMELL
+m	java:S125Î"<This block of commented-out lines of code should be removed.(€Òê»ÿÿÿÿÿH¸.RMAJORZ
+CODE_SMELL
+`
+java:S1128"5Remove this unused import 'java.io.FileOutputStream'.(˜«ªgH¹.RMINORZ
+CODE_SMELL
+]
+java:S1481Â"0Remove this unused "columnValue" local variable.(ØÔğ H».RMINORZ
+CODE_SMELL
+a
+java:S1874’"/Remove this use of "getCode"; it is deprecated.(¡ß©ùûÿÿÿÿH¼.RMINORZ
+CODE_SMELL
+\
+java:S1874ˆ"/Remove this use of "getCode"; it is deprecated.(Ú€ıH½.RMINORZ
+CODE_SMELL
+‹
+java:S2293À"YReplace the type specification in this constructor call with the diamond operator ("<>").(çâîÀıÿÿÿÿH¾.RMINORZ
+CODE_SMELL
+‘
+java:S1149à"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Àëá¼ÿÿÿÿÿHÀ.RMAJORZ
+CODE_SMELL
+g	java:S125W"<This block of commented-out lines of code should be removed.(Ä³õƒHÁ.RMAJORZ
+CODE_SMELL
+q
+java:S1854Å"?Remove this useless assignment to local variable "columnValue".(üÅ¡ÏÿÿÿÿÿHÂ.RMAJORZ
+CODE_SMELL
+g	java:S125Ê"<This block of commented-out lines of code should be removed.(ÓÓ†HÃ.RMAJORZ
+CODE_SMELL
+k
+java:S1128":Remove this unused import 'org.openqa.selenium.json.Json'.(ŸÕ¡®ûÿÿÿÿHÄ.RMINORZ
+CODE_SMELL
+t
+java:S2095."MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Öçô­HÆ.RBLOCKERZBUG
+i	java:S106G"9Replace this use of System.out or System.err by a logger.(À›„ìøÿÿÿÿHÇ.RMAJORZ
+CODE_SMELL
+‡
+java:S3776¡"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(Ä’ÚıùÿÿÿÿHÈ.RCRITICALZ
+CODE_SMELL
+h	java:S125Ñ"<This block of commented-out lines of code should be removed.(åä»“HÒ.RMAJORZ
+CODE_SMELL
+
+java:S3776a"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(…¥HÓ.RCRITICALZ
+CODE_SMELL
+[
+java:S1874}"/Remove this use of "getCode"; it is deprecated.(ŸÛØªHİ.RMINORZ
+CODE_SMELL
+e	java:S106°"9Replace this use of System.out or System.err by a logger.(ç’¹òHŞ.RMAJORZ
+CODE_SMELL
+…
+java:S2293o"YReplace the type specification in this constructor call with the diamond operator ("<>").(ï´ÛËHß.RMINORZ
+CODE_SMELL
+o
+java:S1128">Remove this unused import 'com.google.gson.stream.JsonReader'.(ËÓÌ—üÿÿÿÿHá.RMINORZ
+CODE_SMELL
+\
+java:S1874‹"/Remove this use of "getCode"; it is deprecated.(¹¥—¼Hã.RMINORZ
+CODE_SMELL

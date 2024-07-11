@@ -1,0 +1,9 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÀìŠ—úÿÿÿÿHDRMINORZ
+CODE_SMELL
+‰
+java:S1128"XRemove this unused import 'org.springframework.cloud.netflix.eureka.EnableEurekaClient'.(´÷ÎÉüÿÿÿÿHDRMINORZ
+CODE_SMELL
+€
+java:S1128"TRemove this unused import 'org.springframework.cloud.netflix.hystrix.EnableHystrix'.(Ç©ä­H‘DRMINORZ
+CODE_SMELL

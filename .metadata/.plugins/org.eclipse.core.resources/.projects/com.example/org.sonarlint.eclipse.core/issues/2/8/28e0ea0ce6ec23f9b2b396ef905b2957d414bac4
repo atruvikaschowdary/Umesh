@@ -1,0 +1,44 @@
+
+q
+java:S1128">Remove this unused import 'org.apache.poi.ss.usermodel.Sheet'.(·è£8Ôú±İâ0H´0RMINORZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ôú±İâ0H°0RMINORZ
+CODE_SMELL
+y
+java:S1128	"ARemove this unused import 'org.apache.poi.ss.usermodel.Workbook'.(°ûâìÿÿÿÿÿ8Ôú±İâ0H¶0RMINORZ
+CODE_SMELL
+k
+java:S1128"8Remove this unused import 'com.google.gson.JsonElement'.(ğ†˜³8Ôú±İâ0H¸0RMINORZ
+CODE_SMELL
+
+java:S1128"GRemove this unused import 'org.apache.poi.hssf.usermodel.HSSFWorkbook'.(¾§—Œıÿÿÿÿ8Ôú±İâ0H²0RMINORZ
+CODE_SMELL
+
+java:S1192""JDefine a constant instead of duplicating this literal "messageId" 3 times.(ÍÑó8 œ£İâ0H¬/RCRITICALZ
+CODE_SMELL
+j
+java:S1128"2Remove this unused import 'net.sf.json.JSONArray'.(å¶ÿÿÿÿÿ8Ôú±İâ0H¾0RMINORZ
+CODE_SMELL
+p	java:S106B"9Replace this use of System.out or System.err by a logger.(‡¼¯õùÿÿÿÿ8ˆ¦İâ0H÷/RMAJORZ
+CODE_SMELL
+j
+java:S1128"7Remove this unused import 'com.google.gson.JsonParser'.(Œƒ¸Æ8Ôú±İâ0H¼0RMINORZ
+CODE_SMELL
+k
+java:S1128"3Remove this unused import 'net.sf.json.JSONObject'.(©ã¨şÿÿÿÿ8Ôú±İâ0HÀ0RMINORZ
+CODE_SMELL
+i
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8 œ£İâ0H°/RINFOZ
+CODE_SMELL
+n	java:S125+"<This block of commented-out lines of code should be removed.(È¸ë8 œ£İâ0H±/RMAJORZ
+CODE_SMELL
+g
+java:S1128"4Remove this unused import 'java.io.FileInputStream'.(˜³ÉÓ8Ôú±İâ0H®0RMINORZ
+CODE_SMELL
+
+java:S11926"FDefine a constant instead of duplicating this literal "value" 3 times.(çÔ÷ºùÿÿÿÿ8»¯µİâ0Hİ0RCRITICALZ
+CODE_SMELL
+r
+java:S1128"?Remove this unused import 'com.google.gson.JsonParseException'.(Œ­½Ö8Ôú±İâ0Hº0RMINORZ
+CODE_SMELL

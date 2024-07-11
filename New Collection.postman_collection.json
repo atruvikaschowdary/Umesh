@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "75fb9e16-594a-43c5-bca1-13ba90c30ba2",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "30786011"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":65,\r\n    \"userName\":\"gds\",\r\n    \"emailId\":\"gfd@concerto\",\r\n    \"departmentId\":2\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://10.10.11.74:9002/user/save"
+			},
+			"response": []
+		}
+	]
+}

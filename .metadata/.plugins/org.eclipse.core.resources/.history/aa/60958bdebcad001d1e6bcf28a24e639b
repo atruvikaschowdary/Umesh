@@ -1,0 +1,65 @@
+package com.example.exceltojson;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+
+
+
+public class Excel {
+
+	public static void main(String[] args) throws IOException {
+		System.out.println("new");
+		creteJSONAndTextFileFromExcel();
+	}
+
+	private static String creteJSONAndTextFileFromExcel() throws IOException {
+		try {
+		FileInputStream fis=new FileInputStream(new File("D:\\Users\\sanit.bhosle\\Downloads\\ACSMONITORING3.30PM.xls"));  
+		
+		Sheet sheet = null;
+	
+	String a="a";
+		if (a.equalsIgnoreCase("a")) {
+			// creating workbook instance that refers to .xls file
+			HSSFWorkbook wb = new HSSFWorkbook(fis);
+			// creating a Sheet object to retrieve object
+			
+			sheet = wb.getSheetAt(0);
+		}else {
+		XSSFWorkbook wb = new XSSFWorkbook(fis);
+		sheet = wb.getSheetAt(0);
+		sheet.createRow(4);
+		sheet.createRow(5);
+		}
+		Row header = sheet.getRow(0);
+		int colmCount = header.getLastCellNum();
+		
+		DataFormatter formatter = new DataFormatter();
+		
+		for (int i = 0; i < colmCount; i++) {
+		     Row row = sheet.getRow(i);
+
+		    for (int j = 0; j < colmCount; j++) {
+		         Cell cell = row.getCell(j);
+		         System.out.println(cell);
+		        // do stuff to each cell here...
+		    }
+		}
+		
+	
+		}catch(Exception e) {
+			e.printStackTrace();
+		System.out.println(e);
+		}
+			return null;
+}
+}

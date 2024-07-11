@@ -1,0 +1,31 @@
+package com.example.exceltojson;
+
+import java.time.Instant;
+
+
+
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+
+public class Excel {
+
+
+	public static void main(String[] args) {
+		creteJSONAndTextFileFromExcel();
+	}
+	
+	
+	private static String creteJSONAndTextFileFromExcel() {
+		  Workbook workbook = new Workbook();
+		  
+	        // Create a sheet
+	        Worksheet sheet = workbook.getWorksheets().get(0);
+	        
+	        for(a :sheet) {
+	        	a.get
+	        }
+	        
+		return null;
+		}
+
+}

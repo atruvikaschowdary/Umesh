@@ -1,0 +1,45 @@
+package demo;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Base64;
+import java.util.Date;
+
+public class New {
+	public static final String DATETIME_FORMAT = "yyyy-MM-dd HH:mm:ss";
+	public static final String NEW_DATETIME_FORMAT = "dd MMM,yyyy HH:mm:ss";
+	private static final String DATE_FORMAT_ERROR = "ConditionalMandatory format error";
+	
+
+	public static void main(String[] args) {
+
+		try {
+			String date = "2022-05-23 23:24:26";
+			String d = getNewDate(date);
+			System.out.println(d);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+	public static String getNewDate(String date) {
+		SimpleDateFormat dateFormat1 = new SimpleDateFormat(DATETIME_FORMAT);
+		SimpleDateFormat dateFormat2 = new SimpleDateFormat(NEW_DATETIME_FORMAT);
+		String newFormat = "";
+		try {
+			Date newDate;
+			newDate = dateFormat1.parse(date);
+			newFormat = dateFormat2.format(newDate);
+		} catch (Exception e) {
+			System.out.println(DATE_FORMAT_ERROR +""+e);
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return newFormat;
+	}
+}

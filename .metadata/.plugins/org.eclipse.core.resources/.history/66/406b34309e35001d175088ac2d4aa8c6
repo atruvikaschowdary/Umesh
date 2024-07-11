@@ -1,0 +1,41 @@
+package demo;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Base64;
+import java.util.Date;
+
+
+
+public class New {
+ 
+public static void main(String[] args) {
+
+	try {
+		String conv="2022-04/23 22:25:48";
+		String d=getNewDate(conv);
+		System.out.println(d);
+	} catch (Exception e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+		
+}
+
+public static String getNewDate(String conv) {    
+	DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	//Date date = new Date();
+	System.out.println(dateFormat.format(conv));
+	String nD=dateFormat.format(conv);
+	return nD;
+	   
+	  }    
+	
+}
+
+
+
+
+

@@ -1,0 +1,20 @@
+
+c
+java:S1128"0Remove this unused import 'java.nio.file.Paths'.(áè°¯8Ê»¬­³0HÖ(RMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(¯ô¢ôH»(RMAJORZ
+CODE_SMELL
+c
+java:S1128"0Remove this unused import 'java.nio.file.Files'.(‚ƒü8Ê»¬­³0HÔ(RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ê·‘©8Ãü¦­³0HÍ(RMAJORZ
+CODE_SMELL
+`
+java:S1128"-Remove this unused import 'java.util.Base64'.(ëŠ»Õ8Ê»¬­³0HØ(RMINORZ
+CODE_SMELL
+i
+java:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8¤£­³0H¿(RINFOZ
+CODE_SMELL
+
+java:S1488"ZImmediately return this expression instead of assigning it to the temporary variable "nD".(¶Š«ä8¼ú°­³0Há(RMINORZ
+CODE_SMELL

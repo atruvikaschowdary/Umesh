@@ -1,0 +1,92 @@
+package com.example.exceltojson;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+
+
+
+public class Excel {
+
+	public static void main(String[] args) throws IOException {
+		System.out.println("new");
+		creteJSONAndTextFileFromExcel();
+	}
+
+	private static String creteJSONAndTextFileFromExcel() throws IOException {
+		try {
+		FileInputStream fis=new FileInputStream(new File("D:\\Users\\sanit.bhosle\\Downloads\\ACSMONITORING3.30PM.xls"));  
+		
+		Sheet sheet = null;
+	
+	String a="a";
+		if (a.equalsIgnoreCase("a")) {
+			// creating workbook instance that refers to .xls file
+			HSSFWorkbook wb = new HSSFWorkbook(fis);
+			// creating a Sheet object to retrieve object
+			sheet = wb.getSheetAt(0);
+		}else {
+		XSSFWorkbook wb = new XSSFWorkbook(fis);
+		sheet = wb.getSheetAt(0);
+		}
+		Row header = sheet.getRow(0);
+		int colmCount = header.getLastCellNum();
+		
+		DataFormatter formatter = new DataFormatter();
+		
+		/*
+		 * for (int i = 0; i < colmCount; i++) { Row row = sheet.getRow(i);
+		 * 
+		 * for (int j = 0; j < colmCount; j++) { Cell cell = row.getCell(j); // do stuff
+		 * to each cell here... } }
+		 */
+		
+		
+		String header1 = formatter.formatCellValue(header.getCell(0));
+		String header2 = formatter.formatCellValue(header.getCell(1));
+		String header3 = formatter.formatCellValue(header.getCell(2));
+		String header4 = formatter.formatCellValue(header.getCell(3));
+		String header5 = formatter.formatCellValue(header.getCell(4));
+		String header6 = formatter.formatCellValue(header.getCell(5));
+		String header7 = formatter.formatCellValue(header.getCell(6));
+		String header8 = formatter.formatCellValue(header.getCell(7));
+		String header9 = formatter.formatCellValue(header.getCell(8));
+		String header10 = formatter.formatCellValue(header.getCell(9));
+		String header11 = formatter.formatCellValue(header.getCell(10));
+		String header12 = formatter.formatCellValue(header.getCell(11));
+		String header13 = formatter.formatCellValue(header.getCell(12));
+		String header14 = formatter.formatCellValue(header.getCell(13));
+		String header15 = formatter.formatCellValue(header.getCell(14));
+		String header16 = formatter.formatCellValue(header.getCell(15));
+		String header17 = formatter.formatCellValue(header.getCell(16));
+		String header18 = formatter.formatCellValue(header.getCell(17));
+		String header19 = formatter.formatCellValue(header.getCell(18));
+		String header20 = formatter.formatCellValue(header.getCell(19));
+		String header21 = formatter.formatCellValue(header.getCell(20));
+		String header22 = formatter.formatCellValue(header.getCell(21));
+		String header23 = formatter.formatCellValue(header.getCell(22));
+		String header24 = formatter.formatCellValue(header.getCell(23));
+		String header25 = formatter.formatCellValue(header.getCell(24));
+		String header26 = formatter.formatCellValue(header.getCell(25));
+		String header27 = formatter.formatCellValue(header.getCell(26));
+		String header28 = formatter.formatCellValue(header.getCell(27));
+		String header29 = formatter.formatCellValue(header.getCell(28));
+		String header30 = formatter.formatCellValue(header.getCell(29));
+		String header31 = formatter.formatCellValue(header.getCell(30));
+		String header32 = formatter.formatCellValue(header.getCell(31));
+	
+		}catch(Exception e) {
+			e.printStackTrace();
+		System.out.println(e);
+		}
+			return null;
+}
+}

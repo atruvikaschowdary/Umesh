@@ -1,0 +1,40 @@
+package com.example.exceltojson;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Excel {
+
+	public static void main(String[] args) throws IOException {
+		System.out.println("new");
+		creteJSONAndTextFileFromExcel();
+	}
+
+	private static String creteJSONAndTextFileFromExcel() throws IOException {
+		try {
+		FileInputStream fis=new FileInputStream(new File("D:\\Users\\sanit.bhosle\\Downloads\\ACSMONITORING3.30PM.xlsx"));  
+		XSSFWorkbook wb = new XSSFWorkbook(fis);
+		  
+	        // Create a sheet
+	
+	        XSSFSheet sheet=wb.getSheetAt(0);  
+	        //iteration over row using for each loop  
+	        for(Row row: sheet){  
+	        	   //iteration over cell using for each loop  
+	        for(Cell cell: row) {  
+	        	cell.getStringCellValue();
+		}
+	 }
+		}catch(Exception e) {
+			e.printStackTrace();
+		System.out.println(e);
+		}
+			return null;
+}
+}

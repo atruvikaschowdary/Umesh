@@ -1,0 +1,42 @@
+package com.example.exceltojson;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.ss.usermodel.Sheet;
+
+public class Excel {
+
+	public static void main(String[] args) throws IOException {
+		System.out.println("new");
+		creteJSONAndTextFileFromExcel();
+	}
+
+	private static String creteJSONAndTextFileFromExcel() throws IOException {
+		try {
+		FileInputStream fis=new FileInputStream(new File("D:\\Users\\sanit.bhosle\\Downloads\\ACSMONITORING3.30PM.xlsx"));  
+		
+		Sheet sheet = null;
+		  
+		
+		XSSFWorkbook wb = new XSSFWorkbook(fis);
+		sheet = wb.getSheetAt(0);
+		Row header = sheet.getRow(0);
+		int colmCount = header.getLastCellNum();
+		
+		DataFormatter formatter = new DataFormatter();
+	   
+		}catch(Exception e) {
+			e.printStackTrace();
+		System.out.println(e);
+		}
+			return null;
+}
+}

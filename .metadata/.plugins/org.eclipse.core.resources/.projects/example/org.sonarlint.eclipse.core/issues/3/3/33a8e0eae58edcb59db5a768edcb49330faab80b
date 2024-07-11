@@ -1,0 +1,12 @@
+
+m
+java:S1854Z"ARemove this useless assignment to local variable "multipartFile".(šĞ‚Hª(RMAJORZ
+CODE_SMELL
+N
+java:S1659P""Declare "data" on a separate line.(Ÿ®ÛëH«(RMINORZ
+CODE_SMELL
+^
+java:S1481Z"2Remove this unused "multipartFile" local variable.(šĞ‚H­(RMINORZ
+CODE_SMELL
+l	java:S125["<This block of commented-out lines of code should be removed.(×¨ù£ûÿÿÿÿH¯(RMAJORZ
+CODE_SMELL
